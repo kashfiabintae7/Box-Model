@@ -1,0 +1,132 @@
+#imgright,
+#imgleft {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 10px;
+}
+
+#imgleft {
+  width: 300px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+#imgright {
+  width: 300px;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+#imgcenter {
+  height: 250px;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+.example1 {
+  width: 230px;
+  background-color: rgb(157, 46, 87);
+  padding: 0px 30px 20px 100px;
+  margin: 0px;
+  float: right;
+}
+.example2 {
+  width: 220px;
+  background-color: darkslateblue;
+  padding: 80px;
+  margin: 100px 300px;
+  border: 15px double lavender;
+  border-radius: 100px;
+}
+
+body {
+  font-family: cursive;
+  background-color: #db9aaf;
+  background-image: url(https://static.dezeen.com/uploads/2021/10/squid-game-set-design-netflix-south-korea_dezeen_2364_col_3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: local;
+  background-size: cover;
+}
+.image-list {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(66, 14, 72, 0.49);
+  border: 5px solid #c16c6c;
+  overflow: hidden;
+}
+
+h1 {
+  color: rgb(31, 96, 83);
+  text-shadow: 7px 7px 7px rgb(156, 46, 88);
+  font-size: 50px;
+}
+h2 {
+  color: rgb(93, 110, 207);
+  text-shadow: 7px 7px 7px rgb(240, 128, 229);
+  font-size: 28px;
+  text-align: center;
+}
+h3 {
+  color: rgb(182, 144, 73);
+  font-size: 22px;
+  text-align: center;
+}
+h5 {
+  color: rgb(26, 146, 140);
+  font-size: 20px;
+}
+h4 {
+  color: rgb(46, 92, 134);
+  text-shadow: 3px 3px 6px palevioletred;
+  font-size: 20px;
+}
+p {
+  color: rgb(172, 181, 172);
+  text-shadow: 2px 2px 5px powderblue;
+}
+a {
+  color: #8b949e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: khaki;
+  font-size: 20px;
+  text-shadow: 7px 7px 7px rgb(41, 41, 123);
+  font-weight: bold;
+}
+
+h1::after {
+  content: "💸";
+}
+
+h3::after {
+  content: "👇";
+}
+
+h2::after {
+  content: "💷";
+}
+
+h1:hover {
+  color: rgb(42, 135, 95);
+  text-shadow: 5px 5px 7px rgb(185, 60, 166);
+  font-size: 55px;
+}
+h2:hover {
+  color: rgb(151, 120, 175);
+  text-shadow: 5px 5px 7px rgb(164, 144, 163);
+  font-size: 33px;
+}
+h3:hover {
+  color: rgb(162, 169, 61);
+  text-shadow: 5px 5px 7px rgb(205, 169, 122);
+  font-size: 25px;
+}
+h5:hover {
+  color: rgb(125, 202, 115);
+  text-shadow: 5px 5px 7px rgb(205, 169, 122);
+  font-size: 25px;
+}
